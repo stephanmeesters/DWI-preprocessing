@@ -11,6 +11,11 @@ Based on [NiPype](https://github.com/nipy/nipype).
 * Probabilistic tractography (MRTrix)
 * FBC measures ([Github link](https://github.com/stephanmeesters/spuriousfibers))
 
+Prerequisites
+=============
+* Install FSL
+* Install MRTrix
+* Compile FBC measures ([instructions](https://github.com/stephanmeesters/spuriousfibers))
 
 Instructions
 ============
