@@ -5,10 +5,14 @@
     2016
 '''
 
+# use local version of NiPype
+import os, sys
+sys.path.append(os.path.abspath('nipype'))
+
 # Define inputs
 # Single subject
 dataDirectory = '<path to data directory>'
-outputDirectory = '/mnt/hgfs/DTIHARDIdata/DTIcontrole0006/output/'
+outputDirectory = '<path to output directory>'
 t1_file = '<path to T1 NiFTI file relative to dataDirectory>'
 dwiDirectories = ['<path to diffusion data directory relative to dataDirectory'>]
 rois_files = ['ROIs/lgn_left.nii','ROIs/v1_left.nii','ROIs/lgn_right.nii','ROIs/v1_right.nii','ROIs/exclude_left.nii','ROIs/exclude_right.nii']
